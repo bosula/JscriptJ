@@ -1,0 +1,1 @@
+shift+alt+a = to comment the whole block of code

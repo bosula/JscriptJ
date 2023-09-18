@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <!-- <h1>this is going to be good</h1> -->
+    <span id="num1-el"></span>
+    <span id="num2-el"></span>
+    <br>
+    <br>
+    <br>
+    <button onclick="Add()">Add</button>
+    <button onclick="Subtract()">Subtract</button>
+    <button onclick="Divide()">Divide</button>
+    <button onclick="Multiply()">Multiply</button>
+    <br>
+    <br>
+    <br>
+    <span id="sum-el">Sum: </span>
+    <script>
+        let n1=30
+        let n2=20
+   document.getElementById("num1-el").textContent=n1;
+   document.getElementById("num2-el").textContent=n2;
+   let sumEl=document.getElementById("sum-el")
+function Add() {
+    n0=n1+n2
+    sumEl.textContent='Sum: ' + n0
+    }
+function Subtract() {
+    ns=n1-n2
+    sumEl.textContent='Sum: ' + ns }
+function Divide() {
+    nd=n1/n2
+    sumEl.textContent='Sum: ' + nd}
+function Multiply() {
+    nm=n1*n2    
+    sumEl.textContent='Sum: ' + nm}
+    </script>
+ 
+</body>
+</html>
